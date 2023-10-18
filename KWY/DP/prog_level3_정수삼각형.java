@@ -1,16 +1,14 @@
-package KWY.DP;
-
-public class prog_level3_정수삼각형 {
+public class Solution {
 
     private int[][] max;
     private int answer = 0;
 
     public int solution(int[][] triangle) {
         max = new int[triangle.length][];
-        for (int i = 0; i < triangle.length; i++) {
+        max[0] = triangle[0];
+        for (int i = 1; i < triangle.length; i++) {
             max[i] = new int[i + 1];
         }
-
         for (int i = 1; i < triangle.length; i++) {
             for (int j = 0; j < triangle[i].length; j++) {
                 if (j == 0) {
@@ -29,7 +27,7 @@ public class prog_level3_정수삼각형 {
     }
 
 //    /*
-//     * 2^n 을 해도 2500 이기 때문에 dfs 로 풀어도 괜찮겠다라고 판단
+//     * dfs 풀이
 //     * -> 시간 초과
 //     * */
 //
