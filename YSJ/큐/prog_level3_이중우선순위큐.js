@@ -1,3 +1,5 @@
+// heap으로 분류되어 있지만 queue로 품
+
 function solution(operations) {
   let queue = [];
   operations.forEach((opt, idx) => {
@@ -5,6 +7,7 @@ function solution(operations) {
     if (cmd === 'I') {
       queue.push(num);
     } else if (cmd === 'D' && num === '-1') {
+      ㄴ;
       queue.sort((a, b) => a - b);
       queue.shift();
     } else {
