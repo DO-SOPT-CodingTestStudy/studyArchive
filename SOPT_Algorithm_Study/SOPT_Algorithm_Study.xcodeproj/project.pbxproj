@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E7871902AECA8770098A66D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78718F2AECA8770098A66D /* main.swift */; };
+		3E2BD96C2AEE0E5E00C700BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BD96B2AEE0E5E00C700BD /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,8 @@
 		3E1BC5852AE8E32700613C5C /* SOPT_Algorithm_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOPT_Algorithm_Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1BC5882AE8E32700613C5C /* 하노이의 탑.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "하노이의 탑.swift"; sourceTree = "<group>"; };
 		3E1BC5912AE8F30000613C5C /* 쿼드압축 후 개수 세기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "쿼드압축 후 개수 세기.swift"; sourceTree = "<group>"; };
-		3E78718F2AECA8770098A66D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3E2BD96B2AEE0E5E00C700BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3E78718F2AECA8770098A66D /* 다리 위의 트럭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다리 위의 트럭.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,8 @@
 			children = (
 				3E1BC5882AE8E32700613C5C /* 하노이의 탑.swift */,
 				3E1BC5912AE8F30000613C5C /* 쿼드압축 후 개수 세기.swift */,
-				3E78718F2AECA8770098A66D /* main.swift */,
+				3E78718F2AECA8770098A66D /* 다리 위의 트럭.swift */,
+				3E2BD96B2AEE0E5E00C700BD /* main.swift */,
 			);
 			name = "2주차";
 			path = "2주차";
@@ -133,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7871902AECA8770098A66D /* main.swift in Sources */,
+				3E2BD96C2AEE0E5E00C700BD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
