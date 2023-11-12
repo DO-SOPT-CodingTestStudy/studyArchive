@@ -22,6 +22,9 @@ vector<int> solution(vector<int> arr)
             q.pop();
     }
 
+// 간단한 풀이
+//  arr.erase(unique(arr.begin(),arr.end()),arr.end());
+//  answer=arr;
     return answer;
 }
 
