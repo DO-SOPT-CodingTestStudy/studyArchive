@@ -26,6 +26,7 @@ int main(){
 
     sort(vs.begin(),vs.end(),compare);
     vs.erase(unique(vs.begin(),vs.end()),vs.end());
+    
         for(int i=0;i<n;i++){
         cout<<vs[i]<<"\n";
     }
