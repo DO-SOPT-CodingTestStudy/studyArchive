@@ -1,3 +1,4 @@
+'''시간 초과 고려 필요한 문제'''
 import sys
 input = sys.stdin.readline
 
